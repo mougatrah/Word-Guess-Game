@@ -7,40 +7,40 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-   
+    <link rel="stylesheet" href="assets/css/style.css"/>
     <title>Guess the Game</title>
 
   </head>
   <body class="bg-dark text-light">
-    <div class="container text-monospace">
-      <div class="border border-primary text-center row">
-    <h1 class="col-12 border border-secondary">Guess the Game</h1>
+    <div id="main" class="container text-monospace">
+      <div class=" text-center row">
+    <h1 class="col-12  ">Guess the Game</h1>
     </div>
       
-      <div class="row border border-primary">
-        <div class="col-4 border border-info">
+      <div class="row ">
+        <div class="col-4  -info">
           <div class="row">
-            <div class="col-12 p-2 border border-secondary">
+            <div id="instructions" class="col-12 p-2  ">
           Press any key to get started!
             </div>
-            <div class="col-12 p-2 border border-secondary">
+            <div class="col-12 p-2  ">
               Letters used: 
             </div>
-            <p class="col-12 p-2 border border-secondary text-wrap" id="lettersUsed">#</p>
+            <p class="col-12 p-2   text-wrap" id="lettersUsed">#</p>
           </div>
         </div>
-        <div class="col-8 border border-secondary">
-          <div class="row border border-primary">
-            <div class="col-6 p-4 border border-secondary">
+        <div class="col-8  ">
+          <div class="row ">
+            <div class="col-6 p-4  ">
               Wins: <span id="wins"></span>
             </div>
-             <div class="col-6 p-4 border border-secondary">
+             <div class="col-6 p-4  ">
                Limbs: <span id="limbs"></span>
             </div>
           </div>
           
-          <div class="row text-center border border-primary">
-            <div id="gameName" class="col-12 p-2 border border-secondary"> 
+          <div class="row text-center ">
+            <div id="gameName" class="col-12 p-2  "> 
             </div>
         </div>
       </div>
