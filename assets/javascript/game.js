@@ -10,6 +10,12 @@ var game = {
   gamesToGuess: ["zelda", "megaman", "metroid"],
   lettersCorrect: [],
   lettersUsed: ["#"],
+  backgrounds: {
+    zelda: "../images/zelda.jpg",
+    megaman: "../images/megaman.jpg",
+    metroid: "../images/metroid.jpg"
+
+  },
 
   levelUp: function() {
     this.wins++;
