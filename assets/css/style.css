@@ -1,5 +1,29 @@
+
 #main{
+    
     padding: 120px;
     width: 812px;
-    height: 600px;
+    height: 600px;  
+    background-image: url("../images/zelda.jpg");
+}
+
+#zelda{
+    padding: 120px;
+    width: 812px;
+    height: 600px;  
+    background-image: url("../images/zelda.jpg");
+}
+
+#megaman{
+    padding: 120px;
+    width: 812px;
+    height: 600px;  
+    background-image: url("../images/megaman.jpg");
+}
+
+#metroid{
+    padding: 120px;
+    width: 812px;
+    height: 600px;  
+    background-image: url("../images/metroid.jpg");
 }
