@@ -8,7 +8,7 @@ var mainElement = document.getElementById("main");
 var zeldaMusic = document.getElementById("zeldaTheme");
 var megamanMusic = document.getElementById("megamanTheme");
 var metroidMusic = document.getElementById("metroidTheme");
-
+console.log(zeldaMusic);
 var levelUpMusic = document.getElementById("levelUp");
 var gameOverMusic = document.getElementById("gameOver");
 var letterRightMusic = document.getElementById("letterRight");
@@ -60,6 +60,13 @@ var game = {
     winsHTML.innerHTML = this.wins;
     limbsHTML.innerHTML = this.limbs;
     mainElement.id = "zelda";
+    zeldaMusic.volume = 0.03;
+    megamanMusic.volume = 0.03;
+    metroidMusic.volume = 0.03;
+    gameOverMusic.volume = 0.03;
+    levelUpMusic.volume = 0.03;
+    letterRightMusic.volume = 0.03;
+    letterWrongMusic.volume = 0.03;
 
     if (!megamanMusic.paused) {
       megamanMusic.pause();
